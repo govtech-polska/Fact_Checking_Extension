@@ -1,0 +1,51 @@
+@import './variables';
+@import './fonts';
+
+.popup {
+  width: 400px;
+  padding: 10px;
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  &__input {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: solid 2px $LIGHT_GREY;
+    font-size: 14px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__label {
+    font-size: 12px;
+    font-family: OpenSans-Regular, sans-serif;
+    margin-bottom: 10px;
+  }
+
+  &__textarea {
+    margin-bottom: 20px;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: solid 2px $LIGHT_GREY;
+    font-size: 14px;
+    height: auto;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__button {
+    background-color: $BLUE;
+    color: $WHITE;
+    border-radius: 3px;
+    border: none;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 14px;
+    &:hover {
+      background-color: $BLUE_2;
+    }
+  }
+}

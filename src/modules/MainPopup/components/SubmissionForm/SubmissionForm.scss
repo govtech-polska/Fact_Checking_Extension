@@ -1,0 +1,78 @@
+@import "../../../../common/styles/variables";
+
+@font-face {
+  font-family: OpenSans-Regular;
+  src: url("../../../../assets/fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+  font-family: OpenSans-Bold;
+  src: url("../../../../assets/fonts/OpenSans-Bold.ttf");
+}
+
+.submission-form {
+  width: 300px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+
+  &__input {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: solid 2px $LIGHT_GREY;
+    font-size: 14px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__error {
+    color: $RED;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__textarea {
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: solid 2px $LIGHT_GREY;
+    font-size: 14px;
+    height: auto;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__button {
+    background-color: #dc371b;
+    color: $WHITE;
+    border-radius: 3px;
+    border: none;
+    margin-top: 20px;
+    padding: 10px 10px;
+    text-transform: uppercase;
+    font-family: OpenSans-Bold, sans-serif;
+    font-size: 14px;
+    &:hover {
+      background-color: $RED_2;
+    }
+  }
+
+  &__google-disclosure {
+    margin-top: 8px;
+    color: $GREY;
+    font-size: 10px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+
+  &__google-disclosure-link {
+    margin-top: 8px;
+    color: $BLUE;
+    font-size: 10px;
+    font-family: OpenSans-Regular, sans-serif;
+  }
+}

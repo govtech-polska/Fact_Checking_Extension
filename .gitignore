@@ -1,0 +1,15 @@
+*~
+
+*.zip
+*.crx
+*.pem
+
+build/
+node_modules/
+
+.DS_Store
+.idea/
+.vscode/
+jsconfig.json
+
+.env
