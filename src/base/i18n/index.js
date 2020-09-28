@@ -9,7 +9,6 @@ i18n
   .use(LanguageDetector)
   .use(initReactI18next)
   .init({
-    lng: "pl-PL",
     react: {
       useSuspense: false,
     },
