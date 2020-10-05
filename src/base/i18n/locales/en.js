@@ -1,35 +1,32 @@
 export default {
   popup: {
-    title: "Report for review",
-    email_label: "Email address for results sending.",
-    submission_label: "What doubts about this information do you have?",
-    send: "send",
-    recaptcha_adnotation: "This site is protected by reCAPTCHA and Google",
-    recaptcha_privacy: "Privacy policy",
-    recaptcha_terms: "Terms of Service.",
-    email_is_invalid: "Invalid email address",
-    email_is_required: "Email is required",
-    description_is_required: "Please complete the data description",
-    description_too_long:
-      "The description of the discovery is too long. Shorten the description to 200 characters",
-    success_msg_title: "Thank you!",
+    title: 'Submit for  fact checking',
+    email_label: 'E-mail address to which verification result should be sent',
+    submission_label: 'What does raise your doubts in this information?:',
+    send: 'Send',
+    recaptcha_adnotation: 'This website is protected by reCAPTCHA and Google',
+    recaptcha_privacy: 'Privacy Policy',
+    recaptcha_terms: 'Terms of Service',
+    email_is_invalid: 'Invalid email!',
+    email_is_required: 'Email is required!',
+    description_is_required: 'A description of the find is required!',
+    description_too_long: 'The description of the find is too long!',
+    success_msg_title: 'Thank You!',
     success_msg_description:
-      "Congrats! Your application has been sent. Our fact-checkers start working on it. Depending on the complexity of the issue, it takes from 4 to 24 hours. We will send you a notification of the result of the verification.",
-    error_msg_title: "Oups! Something went wrong...",
-    error_msg_description: "Please try again later.",
+      'Your application has been sent. You will receive an e-mail notification about the verification result - depending on the complexity of the issue from 4 to 24 hours.',
+    error_msg_title: 'Something went wrong',
+    error_msg_description: 'Try again later.'
   },
   alert: {
-    info_title: "This site is trusted",
-    info_description: "The content on this page has been verified",
-    loading: "Loading..",
-    blocked_title: "This page has been blocked",
-    error_title: "Sorry, we can't process your request",
-    no_marked_text: "Select the text you want to submit for review",
-    marked_text_too_long:
-      "The selected text is too long. Shorten the description to 250 characters",
-    pathname_error_title:
-      "Sorry. It is not possible to register from this place",
+    info_title: 'This site is trusted',
+    info_description: 'The content of this page has been verified',
+    loading: 'Loading...',
+    blocked_title: 'This page has been blocked',
+    error_title: 'We are unable to process your request',
+    no_marked_text: 'Select the text you want to submit for review',
+    marked_text_too_long: 'The selected text is too long',
+    pathname_error_title: 'It is not possible to submit from here',
     pathname_error_content:
-      "Help us better understand the source and context of the post. Go to the page with the content you want to verify by going to the article, post or specific post page.",
-  },
+      'Help us better understand the source and context of the statement. Go to the page with the content you want to verify by going to the page of the article, post or specific statement.'
+  }
 };
