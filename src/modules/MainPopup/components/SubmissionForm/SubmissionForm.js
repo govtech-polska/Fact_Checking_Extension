@@ -7,6 +7,10 @@ import { useTranslation } from "react-i18next";
 
 import "./SubmissionForm.scss";
 
+// adding FakeHunter challenge banner
+import Banner from "../../../../assets/images/test_banner.png";
+console.log(Banner);
+
 const SubmissionForm = ({ handleSubmit, upload }) => {
   const { t, i18n } = useTranslation("popup");
 
@@ -78,6 +82,7 @@ const SubmissionForm = ({ handleSubmit, upload }) => {
               {t("recaptcha_terms")}
             </a>
           </small>
+          <img src={Banner} alt="Banner" height="50px"/>
         </Form>
       )}
     </Formik>
