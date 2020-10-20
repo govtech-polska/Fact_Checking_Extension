@@ -23,7 +23,8 @@ export default {
     loading: 'Loading...',
     blocked_title: 'This page has been blocked',
     error_title: 'We are unable to process your request',
-    no_marked_text: 'Select the text you want to submit for review',
+    no_marked_text_title: "Select text you want to factcheck",
+    no_marked_text: 'Select on the website text you want to submit for review and then run FakeHunter browser extension!',
     marked_text_too_long: 'The selected text is too long',
     pathname_error_title: 'It is not possible to submit from here',
     pathname_error_content:
