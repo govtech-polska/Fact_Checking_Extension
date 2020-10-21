@@ -23,7 +23,8 @@ export default {
     loading: "Ładowanie..",
     blocked_title: "Ta strona została zablokowana",
     error_title: "Nie możemy przetworzyć żądania",
-    no_marked_text: "Zaznacz tekst, który chcesz przesłać do sprawdzenia",
+    no_marked_text_title: "Zaznacz na stronie treść do sprawdzenia",
+    no_marked_text: "Zaznacz na stronie treść, która chcesz przesłać do sprawdzenia, a następnie uruchom wtyczkę i wypełnij formularz zgłoszeniowy.",
     marked_text_too_long: "Zaznaczony tekst jest zbyt długi",
     pathname_error_title: "Z tego miejsca zgłoszenie nie jest możliwe",
     pathname_error_content:
